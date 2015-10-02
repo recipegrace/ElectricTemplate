@@ -1,0 +1,149 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+6 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$1.class
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$2.class
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$3.class
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$4.class
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$.class
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount.class
+binary dependencies:
+5 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Program Files\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\.ivy2\cache\com.recipegrace.electric\core_2.10\jars\core_2.10-0.0.3.jar
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\.ivy2\cache\com.recipegrace.electric\electric_2.10\jars\electric_2.10-0.0.3.jar
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.1.jar
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> C:\Users\fxj6302\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.5.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+6 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com.recipegrace.biglibrary.electricexamples.WordCount
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com.recipegrace.biglibrary.electricexamples.WordCount$
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com.recipegrace.biglibrary.electricexamples.WordCount$$anonfun$1
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com.recipegrace.biglibrary.electricexamples.WordCount$$anonfun$2
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com.recipegrace.biglibrary.electricexamples.WordCount$$anonfun$3
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com.recipegrace.biglibrary.electricexamples.WordCount$$anonfun$4
+used names:
+50 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> +
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> <init>
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> Argument
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> ClassTag
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> ElectricContext
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> ElectricJob
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> Int
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> Map
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> Ordering
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> Predef
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> RDD
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> SequentialFileAccess
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> Set
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> String
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> WordCount
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> _1
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> _2
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> apply
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> args
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> biglibrary
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> com
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> context
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> core
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> electric
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> electricexamples
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> f
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> file
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> flatMap
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> inputArgument
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> map
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> materializeClassTag
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> math
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> namedArguments
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> outputArgument
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> package
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> rdd
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> rddToPairRDDFunctions
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> readFile
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> recipegrace
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> reduceByKey
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> refArrayOps
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> replaceAll
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> sc
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> scala
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> split
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> toLowerCase
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> wordCounts
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> words
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> writeFile
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> x
+product stamps:
+6 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$1.class -> lastModified(1443783531016)
+C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$2.class -> lastModified(1443783531023)
+C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$3.class -> lastModified(1443783531028)
+C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$$anonfun$4.class -> lastModified(1443783531033)
+C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount$.class -> lastModified(1443783531004)
+C:\Users\fxj6302\Downloads\ElectricTemplate\target\scala-2.10\classes\com\recipegrace\biglibrary\electricexamples\WordCount.class -> lastModified(1443783530940)
+source stamps:
+1 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> hash(97dddd0e053c120b64acfc7dcebefeeaf2eb408d)
+binary stamps:
+5 items
+C:\Program Files\Java\jre1.8.0_60\lib\rt.jar -> lastModified(1442871105993)
+C:\Users\fxj6302\.ivy2\cache\com.recipegrace.electric\core_2.10\jars\core_2.10-0.0.3.jar -> lastModified(1443782026000)
+C:\Users\fxj6302\.ivy2\cache\com.recipegrace.electric\electric_2.10\jars\electric_2.10-0.0.3.jar -> lastModified(1443781995000)
+C:\Users\fxj6302\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.1.jar -> lastModified(1443078873000)
+C:\Users\fxj6302\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.5.jar -> lastModified(1425002069000)
+class names:
+5 items
+C:\Program Files\Java\jre1.8.0_60\lib\rt.jar -> java.lang.Object
+C:\Users\fxj6302\.ivy2\cache\com.recipegrace.electric\core_2.10\jars\core_2.10-0.0.3.jar -> com.recipegrace.biglibrary.core.Argument
+C:\Users\fxj6302\.ivy2\cache\com.recipegrace.electric\electric_2.10\jars\electric_2.10-0.0.3.jar -> com.recipegrace.biglibrary.electric.SequentialFileAccess
+C:\Users\fxj6302\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.5.1.jar -> org.apache.spark.rdd.PairRDDFunctions
+C:\Users\fxj6302\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.5.jar -> scala.collection.immutable.Set
+internal apis:
+1 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBX4QZUAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHAKT690AAdqb2JOYW1lc3EAfgAM8DSzlHQABm5vdGlmeXNxAH4ADAkaK6t0AA5vdXRwdXRBcmd1bWVudHNxAH4ADNTc27h0AAR3YWl0c3EAfgAMnosmUXQADSRhc0luc3RhbmNlT2ZzcQB+AAzr7d9ldAAGZXF1YWxzc3EAfgAMxVDQeXQADGFzSW5zdGFuY2VPZnNxAH4ADKAzmih0AANydW5zcQB+AAwgYryMdAAYc2VxdWVudGlhbEZpbGUkZGVmYXVsdCQyc3EAfgAMvpJVnnQADHN5bmNocm9uaXplZHNxAH4ADEHqky10AA0kaXNJbnN0YW5jZU9mc3EAfgAMac2uf3QAA2pvYnNxAH4ADNYKHnZ0AARtYWluc3EAfgAMp3LtWHQACVdvcmRDb3VudHNxAH4ADIyqqFF0AAlub3RpZnlBbGxzcQB+AAzuNSATdAAKdG9JdGVyYXRvcnNxAH4ADP9f8tJ0AAhydW5Mb2NhbHNxAH4ADH184j50AAhyZWFkRmlsZXNxAH4ADNOLnrd0AA1pbnB1dEFyZ3VtZW50c3EAfgAMSvvO4HQADGlzSW5zdGFuY2VPZnNxAH4ADJ7t0rZ0AAl3cml0ZUZpbGVzcQB+AAwDl7yZdAAOc2VxdWVudGlhbEZpbGVzcQB+AAy7uIz1dAAFcGFyc2VzcQB+AAyBWZfZdAACPT1zcQB+AAwqNxoPdAAFY2xvbmVzcQB+AAzcHNWUdAAJcGFyc2VBcmdzc3EAfgAMsAaVRHQAB3RvQXJyYXlzcQB+AAyljTvNdAAIdG9TdHJpbmdzcQB+AAyGa5VGdAACIT1zcQB+AAz7ERh4dAAIZ2V0Q2xhc3NzcQB+AAwDL3kAdAACbmVzcQB+AAwv63gSdAAVZ2V0U2VxdWVudGlhbEZpbGVUZXh0c3EAfgAMqU3CanQAAmVxc3EAfgAMTLqrPXQADm5hbWVkQXJndW1lbnRzc3EAfgAMLvqy4nQAAiMjc3EAfgAMATBkCHQACGZpbmFsaXplc3EAfgAMjlKQHHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AYXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQANWNvbS5yZWNpcGVncmFjZS5iaWdsaWJyYXJ5LmVsZWN0cmljZXhhbXBsZXMuV29yZENvdW50dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Aenhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AeQBwc3EAfgB+c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGFMAAlpbmhlcml0ZWRxAH4AYUwAB3BhcmVudHNxAH4AYXhxAH4AgnNxAH4AeQBwc3EAfgB+dXEAfgBcAAAAAHNxAH4AeQBwc3EAfgB+dXEAfgBcAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBicQB+AGt1cQB+AGwAAAAAc3EAfgBuAHEAfgAndXEAfgBxAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCBc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCidXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Aj3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AdHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AllsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AgXNxAH4AlXQABUFycmF5cQB+AJt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AlXQABlN0cmluZ3NxAH4AmXNxAH4AnHVxAH4AnwAAAANzcQB+AKF0AARqYXZhc3EAfgChdAAEbGFuZ3EAfgCmc3EAfgB5AHBzcQB+AH51cQB+ALoAAAAFc3EAfgCVdAAUU2VxdWVudGlhbEZpbGVBY2Nlc3NzcQB+AJlzcQB+AJx1cQB+AJ8AAAAFc3EAfgChdAADY29tc3EAfgChdAALcmVjaXBlZ3JhY2VzcQB+AKF0AApiaWdsaWJyYXJ5c3EAfgChdAAIZWxlY3RyaWNxAH4ApnNxAH4AlXQAC0VsZWN0cmljSm9icQB+AMpzcQB+AJV0AA5QYXJzZUFyZ3VtZW50c3NxAH4AmXNxAH4AnHVxAH4AnwAAAAVzcQB+AKF0AANjb21zcQB+AKF0AAtyZWNpcGVncmFjZXNxAH4AoXQACmJpZ2xpYnJhcnlzcQB+AKF0AARjb3JlcQB+AKZzcQB+AJV0AAZPYmplY3RxAH4AvnNxAH4AlXQAA0FueXEAfgCbdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAPY29tLnJlY2lwZWdyYWNlc3EAfgDqdAAaY29tLnJlY2lwZWdyYWNlLmJpZ2xpYnJhcnlzcQB+AOp0ACtjb20ucmVjaXBlZ3JhY2UuYmlnbGlicmFyeS5lbGVjdHJpY2V4YW1wbGVzc3EAfgDqdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFQKDRCh3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEVDOlxVc2Vyc1xmeGo2MzAyXERvd25sb2Fkc1xFbGVjdHJpY1RlbXBsYXRlXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSX3d0OBTwSC2Ss/H3Ovv7q8utAjQ==
+external apis:
+0 items
+source infos:
+1 items
+C:\Users\fxj6302\Downloads\ElectricTemplate\src\main\scala\com\recipegrace\biglibrary\electricexamples\WordCount.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUCg0Qod1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGZ4ajYzMDJcRG93bmxvYWRzXEVsZWN0cmljVGVtcGxhdGVcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=
