@@ -20,3 +20,8 @@ project/project/
 
 #project specific
 .tests/
+
+#IDE-specific
+.idea/
+.classpath
+.project
