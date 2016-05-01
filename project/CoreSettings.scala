@@ -6,7 +6,7 @@ object CoreSettings {
 
   val sparkVersion = "1.5.2"
   val currentScalaVersion ="2.10.4"
-  val electricVersion = "0.0.11"
+  val electricVersion = "0.0.12"
 
   // sbt-assembly settings for building a fat jar
   lazy val sparkAssemblySettings = Seq(
@@ -36,6 +36,7 @@ object CoreSettings {
   val coreSettings = Seq(
     version := "0.0.1",
     scalaVersion := currentScalaVersion,
+    parallelExecution in Test := false,
     organization := "com.recipegrace.electric",
     libraryDependencies ++= Seq(
     "com.recipegrace.electric" %% "electric" % electricVersion
