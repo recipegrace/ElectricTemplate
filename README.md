@@ -3,7 +3,7 @@ Making apache spark easier
 
 [![Build Status](https://travis-ci.org/recipegrace/ElectricTemplate.svg?branch=master)](https://travis-ci.org/recipegrace/ElectricTemplate)
 
-Examaples
+Examples
 
 1. WordCount (job with one output and input)
 2. Create Data (job with only output)
