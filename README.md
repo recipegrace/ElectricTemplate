@@ -1,6 +1,7 @@
 # ElectricTemplate
 Making apache spark easier
 
+[![Build Status](https://travis-ci.org/recipegrace/ElectricTemplate.svg?branch=master)](https://travis-ci.org/recipegrace/ElectricTemplate)
 
 Examaples
 
