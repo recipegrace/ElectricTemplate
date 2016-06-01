@@ -4,9 +4,9 @@ import sbtassembly.AssemblyKeys._
 
 object CoreSettings {
 
-  val sparkVersion = "1.5.2"
-  val currentScalaVersion ="2.10.4"
-  val electricVersion = "0.0.11"
+  val sparkVersion = "1.6.1"
+  val currentScalaVersion ="2.10.6"
+  val electricVersion = "0.0.2"
 
   // sbt-assembly settings for building a fat jar
   lazy val sparkAssemblySettings = Seq(
@@ -38,9 +38,10 @@ object CoreSettings {
     scalaVersion := currentScalaVersion,
     organization := "com.recipegrace.electric",
     libraryDependencies ++= Seq(
-    "com.recipegrace.electric" %% "electric" % electricVersion
+    "com.recipegrace" %% "electric" % electricVersion
     ),
-    resolvers ++= Resolvers.allResolvers,
+//    resolvers ++= Seq(Resolver.sonatypeRepo("public")),
+    parallelExecution in Test := false,
     name := "ElectricTemplate",
     test in assembly := {},
     libraryDependencies ++= Seq(
