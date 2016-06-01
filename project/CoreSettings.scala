@@ -36,6 +36,7 @@ object CoreSettings {
   val coreSettings = Seq(
     version := "0.0.1",
     scalaVersion := currentScalaVersion,
+    parallelExecution in Test := false,
     organization := "com.recipegrace.electric",
     libraryDependencies ++= Seq(
     "com.recipegrace" %% "electric" % electricVersion
