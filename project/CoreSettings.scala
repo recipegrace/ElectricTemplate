@@ -41,7 +41,6 @@ object CoreSettings {
     libraryDependencies ++= Seq(
     "com.recipegrace" %% "electric" % electricVersion
     ),
-//    resolvers ++= Seq(Resolver.sonatypeRepo("public")),
     parallelExecution in Test := false,
     name := "ElectricTemplate",
     test in assembly := {},
