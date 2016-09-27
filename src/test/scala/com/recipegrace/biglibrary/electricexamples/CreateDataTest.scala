@@ -1,18 +1,17 @@
 package com.recipegrace.biglibrary.electricexamples
 
-import com.recipegrace.biglibrary.electric.jobs.Arguments.OneArgument
-import com.recipegrace.biglibrary.electric.tests.OutputOnlyJobTest
+import com.recipegrace.biglibrary.electric.tests.ElectricJobTest
 
 /**
   * Created by angela on 5/1/16.
   */
-class CreateDataTest extends OutputOnlyJobTest {
+class CreateDataTest extends ElectricJobTest{
 
   test(" create data test"){
 
     val temp = createTempPath()
 
-    launch(CreateData, OneArgument(temp))
+    launch(CreateData, OutputOnlyArgument(temp))
 
     val content = readSparkOut(temp)
 

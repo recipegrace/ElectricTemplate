@@ -1,27 +1,27 @@
 package com.recipegrace.biglibrary.electricexamples
 
-import com.recipegrace.biglibrary.electric.ElectricContext
-import com.recipegrace.biglibrary.electric.jobs.TwoInputJob
+import com.recipegrace.biglibrary.electric.{ElectricContext, SequenceFileJob}
 
 /**
   * Created by Ferosh Jacob on 2/9/16.
   */
-object SubractFiles extends TwoInputJob {
-  override def execute(one: String, two: String, output: String)(implicit ec: ElectricContext): Unit = {
+case class TwoInputArgument(input1:String, input2:String, output:String)
+object SubractFiles extends SequenceFileJob[TwoInputArgument] {
+  override def execute(argument:TwoInputArgument)(implicit ec: ElectricContext): Unit = {
 
 
     val ids=
-    readTextFile(one).map(f=> f.split("\t",-1)(0))
-      .subtract(readTextFile(two).map(f=> f.split("\t",-1)(0)))
+    readTextFile(argument.input1).map(f=> f.split("\t",-1)(0))
+      .subtract(readTextFile(argument.input2).map(f=> f.split("\t",-1)(0)))
         .map(f=> (f,false))
 
      ids.join(
-      readTextFile(one).map(f=> {
+      readTextFile(argument.input1).map(f=> {
         val parts = f.split("\t",-1)
         (parts.head, parts.tail.mkString("\t"))
       }))
 
           .map(f=>f._1+"\t"+ f._2._2)
-        .saveAsTextFile(output)
+        .saveAsTextFile(argument.output)
   }
 }

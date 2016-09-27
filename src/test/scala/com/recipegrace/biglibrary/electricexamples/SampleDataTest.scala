@@ -5,7 +5,7 @@ import com.recipegrace.biglibrary.electric.tests.ElectricJobTest
 /**
   * Created by Ferosh Jacob on 1/26/16.
   */
-class SampleDataTest  extends ElectricJobTest[SampleDataInput]{
+class SampleDataTest  extends ElectricJobTest{
 
   test("sample data test") {
 
