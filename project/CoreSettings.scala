@@ -4,9 +4,9 @@ import sbtassembly.AssemblyKeys._
 
 object CoreSettings {
 
-  val sparkVersion = "1.6.1"
-  val currentScalaVersion ="2.10.6"
-  val electricVersion = "0.0.2"
+  val sparkVersion = "2.0.0"
+  val currentScalaVersion ="2.11.6"
+  val electricVersion = "0.0.5-SNAPSHOT"
 
   // sbt-assembly settings for building a fat jar
   lazy val sparkAssemblySettings = Seq(
@@ -46,7 +46,8 @@ object CoreSettings {
     test in assembly := {},
     libraryDependencies ++= Seq(
       "org.apache.commons" % "commons-lang3" % "3.4",
-    "org.apache.spark" %% "spark-core" % sparkVersion % "provided")
+    "org.apache.spark" %% "spark-core" % sparkVersion % "provided"),
+    resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
   )
 
 }

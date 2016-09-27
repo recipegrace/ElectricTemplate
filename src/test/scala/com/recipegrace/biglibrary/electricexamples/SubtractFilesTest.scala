@@ -1,12 +1,12 @@
 package com.recipegrace.biglibrary.electricexamples
 
-import com.recipegrace.biglibrary.electric.jobs.Arguments.ThreeArgument
-import com.recipegrace.biglibrary.electric.tests.TwoInputJobTest
+import com.recipegrace.biglibrary.electric.tests.ElectricJobTest
+
 
 /**
   * Created by Ferosh Jacob on 2/9/16.
   */
-class SubtractFilesTest extends TwoInputJobTest{
+class SubtractFilesTest extends ElectricJobTest{
 
   test("subtract files test") {
     val input1 = createFile("hello \t world\n" +
@@ -16,7 +16,7 @@ class SubtractFilesTest extends TwoInputJobTest{
      "hello2\t world1")
 
     val output = createTempPath()
-    launch(SubractFiles, ThreeArgument(input1, input2,output ))
+    launch(SubractFiles, TwoInputArgument(input1, input2,output ))
 
     val outLines = readSparkOut(output)
     outLines should have size(1)

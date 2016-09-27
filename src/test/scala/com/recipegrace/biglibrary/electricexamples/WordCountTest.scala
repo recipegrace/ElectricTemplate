@@ -1,13 +1,12 @@
 package com.recipegrace.biglibrary.electricexamples
 
-import com.recipegrace.biglibrary.electric.jobs.Arguments.TwoArgument
-import com.recipegrace.biglibrary.electric.tests.SimpleJobTest
+import com.recipegrace.biglibrary.electric.tests.ElectricJobTest
 
 
 /**
  * Created by fjacob on 9/25/15.
  */
-class WordCountTest extends SimpleJobTest {
+class WordCountTest extends ElectricJobTest {
   test("wordcount test with spark") {
     val input = createFile {
       """
@@ -17,7 +16,7 @@ class WordCountTest extends SimpleJobTest {
       """.stripMargin
     }
     val output = createTempPath()
-    launch(WordCount, TwoArgument(input, output))
+    launch(WordCount, SimpleJobArgument(input, output))
 
     val lines = readFilesInDirectory(output, "part")
     lines should contain("hello\t1")
